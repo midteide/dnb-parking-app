@@ -28,7 +28,8 @@ export interface ParkingFloor {
   story: number
 }
 
-export interface ParkingGarage {
+export interface ParkingRate {
   id: number
-  floors: ParkingFloor[]
+  rate: number
+  description: string
 }
